@@ -1,0 +1,35 @@
+body {
+    background: #b62b00;
+}
+
+table {
+    background: lightgoldenrodyellow;
+    width: 75%;
+    margin-left: 12.5%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial;
+}
+
+#title {
+    color: black;
+    border: medium solid black;
+    padding: 5px;
+    text-align: center;
+    background: lightgoldenrodyellow;
+    font-weight: normal;
+    font-family: "Arial Narrow";
+}
+
+.choices {
+    display: inline-block;
+    position: relative;
+    left: 12.5%;
+    background-color: black;
+    padding: 5px 27% 5px 27.5%;
+    text-align: center;
+}
+
+#artistName {
+    background-color: lightgrey;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Previewing iTunes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title" class="intro">PREVIEWING iTUNES</h1>
+
+    <div class="choices">
+
+        <input id="artistName" class="intro">
+        <select id="numSongs">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+        </select>
+
+        <button id="search" class="intro" onclick="run()">Go!</button>
+    </div>
+
+
+    <table class="onClick" id="thePreview" border="1">
+        <tr>
+            <th>#</th>
+            <th>Song</th>
+            <th>Artist</th>
+            <th>Preview</th>
+            <th>Album</th>
+            <th>Album Art</th>
+        </tr>
+    </table>
+</body>
+</html>
